@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+    .header-right__desc {
+        display: none;
+    }
+
+    .header-phone__num {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .header-phone__text {
+        font-size: 16px;
+    }
+
+    .header__bottom {
+        padding: 12px 0;
+        border-top: 2px solid #A78BFA;
+        border-bottom: 2px solid #A78BFA;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-logo__img {
+        width: 243px;
+    }
+
+    .header__bottom {
+        display: none;
+    }
+
+    .header-phone__num {
+        line-height: 28px;
+        font-size: 20px;
+    }
+
+    .header-phone__text {
+        display: none;
+    }
+}
